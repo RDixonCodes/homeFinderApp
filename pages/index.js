@@ -64,6 +64,6 @@ export async function getStaticProps() {
       propertiesForRent: propertyForRent?.hits,
     },
   };
-}
+};
 
 export default Home;
