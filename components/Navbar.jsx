@@ -16,7 +16,7 @@ import { FiKey } from 'react-icons/fi';
 const Navbar = () => (
     <Flex p='2' borderBottom='1px' borderColor='gray.100'>
         <Box fontSize='3xl'color='blue.400'>
-            <Link href='/' paddingLeft='2'>Realtor</Link>
+            <Link href='/' paddingLeft='2'>Space Finder</Link>
         </Box>
         <Spacer />
         <Box>
