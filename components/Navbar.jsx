@@ -9,9 +9,9 @@ import {
     Box, 
     Spacer 
 } from '@chakra-ui/react';
-import { FcMenu, FcHome, FcAbout} from 'react-icons/fc';
-import { BsSearch } from 'react-icons/bs';
-import { FiKey } from 'react-icons/fi';
+import { FcMenu, FcHome, FcSearch, FcKey, FcCurrencyExchange} from 'react-icons/fc';
+// import { BsSearch } from 'react-icons/bs';
+// import { FcKey } from 'react-icons/fi';
 
 const Navbar = () => (
     <Flex p='2' borderBottom='1px' borderColor='gray.100'>
@@ -27,13 +27,13 @@ const Navbar = () => (
                         <MenuItem icon={<FcHome/>}>Home</MenuItem>
                     </Link>
                     <Link href='/search' passHref>
-                        <MenuItem icon={<BsSearch/>}>Search</MenuItem>
+                        <MenuItem icon={<FcSearch/>}>Search</MenuItem>
                     </Link>
                     <Link href='/search?purpose=for-sale' passHref>
-                        <MenuItem icon={<FcAbout/>}>Buy Property</MenuItem>
+                        <MenuItem icon={<FcCurrencyExchange/>}>Buy Property</MenuItem>
                     </Link>
                     <Link href='/search?purpose=for-rent' passHref>
-                        <MenuItem icon={<FiKey/>}>Rent Property</MenuItem>
+                        <MenuItem icon={<FcKey/>}>Rent Property</MenuItem>
                     </Link>
                 </MenuList>
             </Menu>
